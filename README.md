@@ -98,3 +98,7 @@
     """
 
 ```
+
+# My Atom plugins
+
+- autocomplete-js-import
