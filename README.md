@@ -7,8 +7,8 @@
     'prefix': 'lo'
     'body': 'console.log(\'$1\', $1);'
 
-  'test:describe':
-    'prefix': 'test:describe'
+  'jest:describe':
+    'prefix': 'jest:describe'
     'body': """
       describe('$1', () => {
         it('$2', () => {
@@ -17,8 +17,8 @@
         });
     """
 
-  'test:describe:describe':
-    'prefix': 'test:describe:describe'
+  'jest:describe:describe':
+    'prefix': 'jest:describe:describe'
     'body': """
       describe('$1', () => {
 
@@ -30,8 +30,8 @@
         });
     """
 
-  'test:snap':
-    'prefix': 'test:snap'
+  'jest:snap':
+    'prefix': 'jest:snap'
     'body': """
       import React from 'react';
       import renderer from 'react-test-renderer';
@@ -46,8 +46,8 @@
       });
     """
 
-  'test:shallowsnap':
-    'prefix': 'test:shallowsnap'
+  'jest:shallowsnap':
+    'prefix': 'jest:shallowsnap'
     'body': """
       import React from 'react';
       import ShallowRenderer from 'react-test-renderer/shallow';
@@ -63,8 +63,8 @@
       });
     """
 
-  'rn:component':
-    'prefix': 'rn:component'
+  'rn:purecomponent':
+    'prefix': 'rn:purecomponent'
     'body': """
       // @flow
 
